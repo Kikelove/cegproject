@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Monserrat;
+}
+
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.ul-div {
+    padding: 100px;
+    margin-top: -100px;
+}
+
+.ul-div ul {
+    display: flex;
+}
+
+.nav-div li {
+    display: flex
+}
+
+.nav-div a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.contact-btn {
+    background-color: rgb(19, 19, 145);
+    border-style: solid;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+.contact-btn:hover {
+    transform: translateY(-10px);
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    width: 20px;
+    height: 10vh;
+    transition: 0.9s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+/* Section 1 */
+
+.sect1-div2 {
+    background-color: darkred;
+    height: 5vh;
+    transition: 0.9s;
+}
+
+
+.sect1-div2 ul {
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    justify-content: center;
+}
+
+.sect1-div2 a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    margin: 50px;
+}
+
+.sect1-div2 li {
+    margin: 10px;
+}
+
+/* Section 2 */
+
+h4 {
+    font-weight: 500;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.contact-text h4 {
+    font-weight: 500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.contact-text {
+    font-size: 26px;
+    width: 78%;
+    margin-left:50px;
+}
+.contact-info {
+    margin-left:50px;
+}
+
+.contact-address {
+   margin-left:50px;
+}
+ 
+
+/*Footer */
+.footer-div {
+    background-color: lightgrey;
+    height: 50vh;
+    width: 1350px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerUl {
+    display: flex;
+}
+
+.footerUl ul {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.footerEnd {
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+.footerEndp {
+    display: flex;
+}
+
+.footerEndp a {
+    text-decoration: none;
+    color: grey;
+}

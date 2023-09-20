@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Monserrat;
+}
+
+.nav-div {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.ul-div {
+    padding: 100px;
+    margin-top: -100px;
+}
+
+.ul-div ul {
+    display: flex;
+}
+
+.nav-div li {
+    display: flex
+}
+
+.nav-div a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.contact-btn {
+    background-color: rgb(19, 19, 145);
+    border-style: solid;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+.contact-btn:hover {
+    transform: translateY(-10px);
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    width: 20px;
+    height: 10vh;
+    transition: 0.9s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.sect1-div2 {
+    background-color: darkred;
+    height: 5vh;
+    margin-top: 90px;
+    transition: 0.9s;
+}
+
+
+.sect1-div2 ul {
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    justify-content: center;
+}
+
+.sect1-div2 a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    margin: 50px;
+}
+
+.sect1-div2 li {
+    margin: 10px;
+}
+
+.banner-img {
+    margin-top: -13px;
+    height: 85vh;
+    width:1300px;
+
+}
+
+.banner-div {
+    margin-top: 93px;
+}
+
+.sect2-div1 {
+    text-align: center;
+    display: grid;
+    margin-top: -140px
+}
+
+.sect3-p2 {
+    border-style: none;
+    width: 200px;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: lightgray;
+    transition: 0.9s;
+}
+
+.sect3-p2:hover {
+    transform: translateY(-20px);
+}
+
+.who-div {
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.vision-sp {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.mission-sp {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.sect3-p3 {
+    border-style: none;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: lightgray;
+    transition: 0.9s;
+}
+
+.sect3-p3:hover {
+    transform: translateY(-20px);
+}
+
+.parent-div {
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    text-align:center;
+}
+
+/* Section 4 */
+.value-parent-div {
+    height: 65vh;
+    width: 1300px;
+    background-color: lightgray;
+    padding: 70px;
+    transition: 0.9s;
+}
+
+.value-p1 {
+    justify-content: center;
+}
+
+.value-h-div {
+    font-size: 25px;
+    font-weight: bolder;
+}
+.board-parent-div {
+    justify-content:cnter;
+}
+.board-h-div {
+    font-size:25px;
+    font-weight:bolder;
+}
+
+.sect4-p1 {
+    border-style: none;
+    width: 400px;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: lightgray;
+    transition: 0.9s;
+}
+
+.sect4-p1:hover {
+    transform: translateY(-20px);
+}
+
+.sect4-p2 {
+    border-style: none;
+    width: 200px;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: lightgray;
+    transition: 0.9s;
+}
+
+.sect4-p2:hover {
+    transform: translateY(-20px);
+}
+
+.chairMan-div {
+    display: flex;
+    justify-content: space-around;
+    margin: 20%;
+}
+
+.directorDiv {
+    display: grid;
+}
+
+.directorDiv1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20%;
+}
+
+.imgDiv1 {
+    display: grid;
+    margin: 5%;
+}
+
+.imgDiv2 {
+    display: grid;
+    margin: 5%;
+}
+
+.imgDiv3 {
+    display: grid;
+    margin: 5%;
+}
+
+.img1 {
+    width: 290px;
+    height: 40vh;
+}
+
+.img2 {
+    width: 290px;
+    height: 40vh;
+}
+
+.img3 {
+    width: 290px;
+    height: 40vh;
+}
+
+.directorDiv2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgDiv4 {
+    display: grid;
+    margin: 5%;
+}
+
+.img4 {
+    width: 10px;
+    height: 20vh;
+}
+.footer-div {
+    background-color: lightgrey;
+    height: 50vh;
+    width: 1350px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerUl {
+    display: flex;
+}
+
+.footerUl ul {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.footerEnd {
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+.footerEndp {
+    display: flex;
+}
+
+.footerEndp a {
+    text-decoration: none;
+    color: grey;
+}
+
+
